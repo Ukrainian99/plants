@@ -131,7 +131,7 @@ color: white;
 // main
 .hero {
    display: flex;
-  
+  flex: 0 0 100%;
    padding-left: 15px;
     padding-right: 15px;
    width: 100%;
@@ -140,6 +140,7 @@ color: white;
 .flower {
     display: flex;
     align-items: end;
+    flex: 0 0 15%;
 }
 }
 
@@ -147,6 +148,7 @@ color: white;
     display: flex;
     margin-top: 133px;
     flex-direction: column;
+    flex: 0 0 35%;
     .service {
         width: 213px;
         height: 20px;
@@ -238,7 +240,8 @@ color: white;
     }
 }
 .img-woman {
-    margin-top: 46px;
+    display: flex;
+    flex: 0 0 50%;
     
    
     img {

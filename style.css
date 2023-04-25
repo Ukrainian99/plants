@@ -108,19 +108,46 @@
   margin-top: 5px;
 }
 
+.btn-call {
+  border-radius: 5px;
+  border-color: rgb(0, 115, 12);
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 115, 12);
+  width: 61px;
+  height: 24px;
+  background-color: rgb(0, 115, 12);
+  width: 170px;
+  height: 50px;
+  background-image: url(./images/Group.png);
+  background-position: 30px;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-call .call-us {
+  width: 61px;
+  height: 24px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
 .hero {
   display: flex;
-  justify-content: space-between;
   padding-left: 15px;
   padding-right: 15px;
   width: 100%;
   height: 719px;
   background: linear-gradient(79.58deg, rgba(0, 115, 12, 0.81) -39.14%, rgba(251, 246, 238, 0) 90.23%);
 }
+.hero .flower {
+  display: flex;
+  align-items: end;
+}
 
 .plant {
   display: flex;
-  margin-left: 258px;
   margin-top: 133px;
   flex-direction: column;
 }
@@ -222,4 +249,51 @@
 .img-woman img {
   width: 525px;
   height: 673px;
+}
+
+@media screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    max-width: 375px;
+  }
+  .main .img-woman {
+    max-width: 375px;
+    max-height: 240px;
+  }
+  .main .img-woman img {
+    max-width: 375px;
+    max-height: 240px;
+  }
+  .container {
+    max-width: 375px;
+    width: 100%;
+  }
+  .row {
+    max-width: 375px;
+    width: 100%;
+  }
+  .email-text, .number-text, .position-text {
+    display: none;
+    margin-left: 5px;
+  }
+  .subb-header {
+    max-width: 375px;
+    width: 100%;
+  }
+  .sub-header-menu {
+    max-width: 375px;
+    width: 100%;
+  }
+  .main-menu {
+    display: none;
+  }
+  .logo {
+    width: 74px;
+    height: 21px;
+  }
+  .call-btn {
+    width: 40px;
+    height: 34px;
+  }
 }/*# sourceMappingURL=style.css.map */

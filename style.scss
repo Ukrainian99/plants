@@ -128,6 +128,9 @@ color: white;
         margin-top: 5px;
     }
 }
+.btn-mob-call{
+    display: none;
+}
 // main
 .hero {
    display: flex;
@@ -242,57 +245,168 @@ color: white;
 .img-woman {
     display: flex;
     flex: 0 0 50%;
+    position: absolute;
+    right: 4px;
+    top: 180px;
     
    
     img {
-        width: 525px;
+        width: 640px;
         height: 673px;
        
     }
 }
+.img-woman-mob {
+    display: none;
+}
 @media screen and (max-width:600px) {
-    .main {
-        display: flex;
-        flex-direction: column;
-        max-width: 375px;
-        .img-woman{
-            max-width: 375px;
-            max-height: 240px;
-            img {
-                max-width: 375px;
-                max-height: 240px;
-            }
+    .header {
+        width: 440px;
+    }
+    .main-menu {
+        display: none;
+    }
+    .customs {
+        .mobile {
+            display: none;
         }
+        
     }
     .container{
-        max-width:375px ;
+        max-width:600px ;
         width: 100%;
     }
+   
     .row {
-        max-width: 375px;
+        max-width: 600px;
         width: 100%;
     }
+    
     .email-text , .number-text , .position-text {
         display: none;
         margin-left: 5px;
     }
     .subb-header {
-        max-width: 375px;
+        max-width: 600px;
         width: 100%;
     }
+
+   
     .sub-header-menu{
-        max-width: 375px;
+        max-width: 600px;
         width: 100%;
     }
-    .main-menu {
-        display: none;
-    }
+
+
     .logo {
         width: 74px;
-        height: 21px;
+        height: 35px;
     }
-    .call-btn {
-        width: 40px;
-        height: 34px;
+
+
+    
+    .btn-call {
+        display: none;
     }
+    .btn-mob-call {
+        display: block;
+        position: relative;
+        left: 56px;
+        border: none;
+        background-color: white;
+        margin-left: 40px;
+        .menu-1 {
+            margin-left: 25px;
+        }
+    }
+
+   
+   .hero {
+    width: 600px;
+   }
+   
+    .main {
+        display: flex;
+        flex-direction: column;
+        max-width: 375px;
+        .img-woman{
+            display: none ;
+    }
+    .img-woman-mob {
+        display: block;
+        margin: 0;
+        position: relative;
+        left: -16px;
+        img { 
+        width: 440px;
+        height: 240px;
+        
+    }
+}
+   .flower {
+    width: 83px;
+        height: 118px;
+        display: block;
+        position: absolute;
+        top: 732px;
+    img {
+        width: 83px;
+        height: 118px;
+    }
+   }
+    .plant {
+      display: flex;
+      flex-direction: column;
+      margin: 0;
+        .plant-icon {
+        width: 23.8px;
+        height: 19.89px;
+        margin: 0;
+       }
+       .service {
+        width: 180px;
+        height: 19px;
+        font-size: 14px;
+       }
+       .per-land {
+        width: 345px;
+        height: 76px;
+        font-size: 28px;
+        margin: 0 0 50px 0;
+       }
+       .lorem {
+        width: 345px;
+        height: 66px;
+        font-size: 14px;
+       }
+       
+    }
+    .btn {
+        display: flex;
+        
+        justify-content: center;
+        align-items: center;
+        width: 425px;
+        height: 44px;
+        
+        .btn-get{
+            width: 303px;
+            height: 44px;
+        }
+    .lorem-text{
+        width: 183px;
+        line-height: 19px;
+        font-size: 14px;
+        display: flex;
+    }  
+    .pointer {
+        width: 16px;
+        height: 13px;
+    }
+
+    }
+   .customs {
+    margin-left: 64px;
+   }
+}
 }

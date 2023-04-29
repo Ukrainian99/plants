@@ -266,6 +266,293 @@
   display: none;
 }
 
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+}
+.services .main-text {
+  font-size: 45px;
+  font-weight: 800;
+  display: flex;
+  justify-content: center;
+}
+.services .main-text .main-text-second {
+  color: rgb(0, 115, 12);
+}
+.services .text-second {
+  margin-top: 30px;
+  font-size: 18px;
+  text-align: center;
+  color: rgb(103, 103, 103);
+}
+
+.work-exp {
+  margin: 50px 100px 0 100px;
+  display: flex;
+}
+
+.garden-box {
+  width: 330px;
+  height: 366px;
+  background-color: rgb(0, 115, 12);
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box img {
+  width: 70px;
+  height: 70px;
+}
+.garden-box .box-1 {
+  font-size: 24px;
+  color: rgb(255, 255, 255);
+  width: 150px;
+  height: 33px;
+  margin-top: 50px;
+}
+.garden-box p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
+.garden-box-2 {
+  width: 330px;
+  height: 366px;
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.732);
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box-2 .box-2 {
+  width: 153px;
+  height: 33px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 33px;
+}
+.garden-box-2 p {
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
+.garden-box-3 {
+  width: 330px;
+  height: 366px;
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.732);
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box-3 .box-3 {
+  width: 166px;
+  height: 33px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 33px;
+}
+.garden-box-3 p {
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
+.garden-box-4 {
+  width: 330px;
+  height: 366px;
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.732);
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box-4 .box-4 {
+  width: 162px;
+  height: 33px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 33px;
+}
+.garden-box-4 p {
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
+.garden-box-5 {
+  width: 330px;
+  height: 366px;
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.732);
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box-5 .box-5 {
+  width: 174px;
+  height: 33px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 33px;
+}
+.garden-box-5 p {
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
+.garden-box-6 {
+  width: 330px;
+  height: 366px;
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.732);
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box-6 .box-6 {
+  width: 168px;
+  height: 33px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 33px;
+}
+.garden-box-6 p {
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
+.garden-box-7 {
+  width: 330px;
+  height: 366px;
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.732);
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box-7 .box-7 {
+  width: 242px;
+  height: 33px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 33px;
+}
+.garden-box-7 p {
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
+.garden-box-8 {
+  width: 330px;
+  height: 366px;
+  background-image: url(./images/Icon.png);
+  background-position: top;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 30px;
+  background-color: rgba(255, 255, 255, 0.732);
+  box-shadow: 2px 11px 30px 0 rgba(51, 51, 51, 0.08);
+}
+.garden-box-8 .box-8 {
+  width: 238px;
+  height: 33px;
+  margin-top: 50px;
+  font-size: 24px;
+  line-height: 33px;
+}
+.garden-box-8 p {
+  font-size: 16px;
+  width: 243px;
+  height: 84px;
+  margin-top: 10px;
+  text-align: center;
+  padding-bottom: 5px;
+  line-height: 28px;
+}
+
 @media screen and (max-width: 600px) {
   .header {
     width: 440px;
